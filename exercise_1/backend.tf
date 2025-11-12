@@ -1,3 +1,5 @@
-bucket = "s3tftstemigrate"
-key    = "s3tstate/backend.tfstate"
-region = "ap-south-1"
+backend "s3" {
+    bucket = "s3tftstemigrate"
+    key    = "s3tstate/backend.tfstate"
+    region = "ap-south-1"
+  }

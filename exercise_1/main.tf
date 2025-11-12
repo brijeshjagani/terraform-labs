@@ -27,7 +27,3 @@ resource "time_sleep" "wait_30_seconds" {
 
   create_duration = "300s"
 }
-
-terraform {
-  backend "s3" {}
-}
